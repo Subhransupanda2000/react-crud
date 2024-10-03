@@ -1,0 +1,156 @@
+/* General table styles */
+table {
+  width: 100%;                 /* Full width for the table */
+  border-collapse: collapse;   /* Collapse borders for a cleaner look */
+  margin: 20px 0;              /* Margin around the table */
+  font-size: 16px;             /* Font size for table text */
+}
+
+/* Header styles */
+thead {
+  background-color: #4CAF50;   /* Green background for the header */
+  color: white;                 /* White text color */
+}
+
+th, td {
+  padding: 12px;                /* Padding for table cells */
+  text-align: left;             /* Align text to the left */
+  border: 1px solid #ddd;       /* Light grey border */
+}
+
+/* Row hover effect */
+tbody tr:hover {
+  background-color: #e0d7d7;    /* Light grey background on hover */
+}
+#dlt{
+  background-color: red;
+}
+#new{
+  background-color: green;
+}
+/* Button styling */
+button {
+  background-color: #007BFF;    /* Blue background */
+  color: white;                  /* White text */
+  border: none;                  /* No border */
+  padding: 8px 12px;            /* Padding inside buttons */
+  cursor: pointer;               /* Pointer cursor on hover */
+  margin: 0 5px;                 /* Margin between buttons */
+  border-radius: 4px;           /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;     /* Darker blue on hover */
+}
+
+/* "Add" row styling */
+tbody tr:last-child {
+  cursor: pointer;                /* Pointer cursor for "Add+" row */
+  font-weight: bold;              /* Bold text */
+  color: #007BFF;                 /* Blue text color */
+}
+
+tbody tr:last-child:hover {
+  text-decoration: underline;      /* Underline on hover */
+}
+
+/* Error and loading message styling */
+p {
+  font-size: 18px;
+  color: #d9534f;                /* Red for error messages */
+}
+
+.loading {
+  color: #5bc0de;                /* Light blue for loading messages */
+}
+/* Style for the name input field */
+#fname {
+  width: 100%;                   /* Full width */
+  padding: 10px;                 /* Padding inside the input */
+  margin-bottom: 15px;           /* Space below the input */
+  border: 1px solid #ccc;        /* Light grey border */
+  border-radius: 4px;            /* Rounded corners */
+  font-size: 16px;               /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Style for the ID input field */
+#fname2 {
+  width: 100%;                   /* Full width */
+  padding: 10px;                 /* Padding inside the input */
+  margin-bottom: 15px;           /* Space below the input */
+  border: 1px solid #ccc;        /* Light grey border */
+  border-radius: 4px;            /* Rounded corners */
+  font-size: 16px;               /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Common styles for both inputs on focus */
+input:focus {
+  border-color: #007BFF;         /* Blue border on focus */
+  outline: none;                 /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
+
+/* Placeholder styling for both inputs */
+input::placeholder {
+  color: #aaa;                   /* Light grey color for placeholder text */
+  font-style: italic;            /* Italic style for placeholder text */
+}
+/* Style for the username input field */
+#input1 {
+  width: 100%;                   /* Full width */
+  padding: 10px;                 /* Padding inside the input */
+  margin-bottom: 15px;           /* Space below the input */
+  border: 1px solid #ccc;        /* Light grey border */
+  border-radius: 4px;            /* Rounded corners */
+  font-size: 16px;               /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Style for the ID input field */
+#input2 {
+  width: 100%;                   /* Full width */
+  padding: 10px;                 /* Padding inside the input */
+  margin-bottom: 15px;           /* Space below the input */
+  border: 1px solid #ccc;        /* Light grey border */
+  border-radius: 4px;            /* Rounded corners */
+  font-size: 16px;               /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+/* Common styles for both inputs on focus */
+input:focus {
+  border-color: #007BFF;         /* Blue border on focus */
+  outline: none;                 /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
+
+/* Placeholder styling for both inputs */
+input::placeholder {
+  color: #aaa;                   /* Light grey color for placeholder text */
+  font-style: italic;            /* Italic style for placeholder text */
+}
+/* Style for the heading */
+.text {
+  font-size: 24px;              /* Font size */
+  font-weight: bold;            /* Bold text */
+  color: #333;                  /* Dark color for the text */
+  text-align: center;           /* Center the text */
+  margin-bottom: 20px;          /* Space below the heading */
+  text-transform: uppercase;     /* Uppercase letters */
+}
+
+/* Optional: Add a subtle shadow for depth */
+.text {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .text {
+    font-size: 20px;            /* Slightly smaller font size on small screens */
+  }
+}
